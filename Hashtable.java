@@ -1,8 +1,8 @@
 //Listing 10.9
 //********************************************************************
 //  Hashtable.java       Author: Lewis/Loftus/Cocking
-//
-//  Implements a hashtable using chaining to handle collisions.
+//THIS IS A TEST!
+// mplements a hashtable using chaining to handle collisions.
 //********************************************************************
 
 public class Hashtable
@@ -62,8 +62,9 @@ public class Hashtable
                 current = current.getNext();
             }
             str += "\n";
-        }
-
+        } //testing this
+	System.out.println("Testing");
+       //so this works???`
         return str;
     }
 } 
